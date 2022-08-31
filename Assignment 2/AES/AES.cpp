@@ -231,7 +231,7 @@ void construct_RoundKey(string str)
         else if(round_number==10) round_cnst= "36";
 
 //        G function
-        string G[4];
+        string G[5];
         G[0]= w[m][0];
         G[1]= w[m][1];
         G[2]= w[m][2];
